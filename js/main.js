@@ -1,4 +1,10 @@
 jQuery(document).ready(function () {
 
-    alert();
+    $("#navBar").on("click", function () {
+        var diceID = $("#navBar > a").attr("id");
+
+        alert(diceID);
+    })
+
+
 })
